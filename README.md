@@ -3,7 +3,7 @@ In this Project i show how i configured my homelab using my rasberry pi 5 to sel
 
 ## 🐳 Docker Services
 
-# <details>
+<details>
 <summary>📄 View Full <code>docker-compose.yml</code></summary>
 ```yaml
 services:
@@ -115,43 +115,3 @@ volumes:
 ```
 
 </details>
-
----
-
-# Services Overview
-
-| Service | Image | Port | Description |
-|---|---|---|---|
-| **Portainer** | `portainer/portainer-ce` | `9000` | Docker container management UI |
-| **Pi-hole** | `pihole/pihole` | host network | Network-wide ad blocking & DNS |
-| **Nginx Proxy Manager** | `jc21/nginx-proxy-manager` | `81` (admin), `8443` (HTTPS) | Reverse proxy with SSL management |
-| **Uptime Kuma** | `louislam/uptime-kuma` | `3001` | Self-hosted uptime monitoring |
-| **Nextcloud** | `nextcloud:28.0.14-apache` | `8080` | Self-hosted cloud storage |
-| **MariaDB** | `mariadb` | — | Database backend for Nextcloud |
-| **n8n** | `n8nio/n8n` | `5678` | Workflow automation |
-| **Vaultwarden** | `vaultwarden/server` | `8081` | Bitwarden-compatible password manager |
-| **Jellyfin** | `jellyfin/jellyfin` | `8096` | Media server |
-
----
-
-# Getting Started
-
-1. **Clone this repo**
-```bash
-   git clone https://github.com/yourusername/yourrepo.git
-   cd yourrepo
-```
-
-2. Update passwords — search for `changeme` in `docker-compose.yml` and replace all instances before deploying.
-
-3. Start all services
-```bash
-   docker compose up -d
-```
-
-4. **Stop all services**
-```bash
-   docker compose down
-```
-
-> Note: Pi-hole uses `network_mode: host` and may conflict with other services binding to port 53. Ensure your host's DNS is not already in use.
