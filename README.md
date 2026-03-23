@@ -5,6 +5,7 @@ In this Project i show how i configured my homelab using my rasberry pi 5 to sel
 ## 🐳 Docker Services
 
 <details>
+  
 <summary>📄 View Full <code>docker-compose.yml</code></summary>
 ```yaml
 services:
