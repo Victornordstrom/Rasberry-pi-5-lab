@@ -5,4 +5,9 @@ In this Project i show how i configured my homelab using my rasberry pi 5 to sel
 
 <img width="1910" height="916" alt="image" src="https://github.com/user-attachments/assets/f53b581f-4c6f-4e8a-9e2a-e5eb5c8734a5" />
 
+# Pihole web ui 
+
+<img width="1910" height="916" alt="image" src="https://github.com/user-attachments/assets/ea3b101f-1b85-4d54-bfd9-deea32e7a658" />
+
+
 
