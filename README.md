@@ -7,7 +7,7 @@ In this Project i show how i configured my pihole DNS - Adblocker using my rasbe
     restart: unless-stopped
     network_mode: host
     environment:
-      - WEBPASSWORD=changeme
+      - WEBPASSWORD=********
       - TZ=Europe/London
       - DNSMASQ_LISTENING=all
     volumes:
