@@ -1,17 +1,12 @@
 # Rasberry-pi-5-lab
-In this Project i show how i configured my homelab using my rasberry pi 5 to selfhost services using docker compose containers.
+In this Project i show how i configured my pihole DNS - Adblocker using my rasberry pi 5 to selfhost the services using docker compose container.
 
- Portainer Web-ui
+ Pihole Web-ui
 
-<img width="1910" height="916" alt="image" src="https://github.com/user-attachments/assets/f53b581f-4c6f-4e8a-9e2a-e5eb5c8734a5" />
+<img width="1910" height="916" alt="Screenshot From 2026-03-23 17-39-36" src="https://github.com/user-attachments/assets/d26227cf-4a7d-44ad-bc38-a8d1a9fb94bb" />
 
- Pihole web ui 
 
-<img width="1910" height="916" alt="image" src="https://github.com/user-attachments/assets/ea3b101f-1b85-4d54-bfd9-deea32e7a658" />
 
-Nextcloud Web ui
-
-<img width="1910" height="916" alt="image" src="https://github.com/user-attachments/assets/eec067f9-b536-4bc0-bb64-5f3a86a9ce4f" />
 
 
 
